@@ -1,0 +1,100 @@
+.AddGroup {
+    hr {
+        border-bottom: 1px solid #444444;
+        width: 60%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+}
+
+.title {
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    font-size: 2rem;
+    display: inline;
+}
+
+button:hover,
+button:focus {
+    color: gray;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+.top {
+    margin: auto;
+    width: 300px;
+}
+
+.panel {
+    width: 60%;
+    height: 700px;
+    background: #eeeeee;
+    border: 2px solid #444444;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.example-enter {
+    height: 0px;
+}
+
+.example-enter.example-enter-active {
+    height: 800px;
+    -webkit-animation-delay: 1s;
+    -webkit-transition: height .3s ease;
+}
+
+.example-leave.example-leave-active {
+    height: 0px;
+    -webkit-animation-delay: 1s;
+    -webkit-transition: height .3s ease;
+}
+
+.lowerButtons {
+    right: 7px;
+    position: absolute;
+    bottom: 15px;
+    .cancel {
+        margin-right: 5px;
+    }
+}
+
+.FormElelment {
+    margin-right: 10px;
+}
+
+.row {
+    margin: 10px;
+}
+
+.picker {
+    z-index: 500;
+}
+
+.addForm {
+    position: relative;
+    height: 100%;
+}
+
+.grid {
+    position: absolute;
+    top: 100px;
+}
