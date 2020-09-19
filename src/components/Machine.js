@@ -5,7 +5,7 @@ const Machine = props => {
     console.log(props);
     return (
         <div className="Machine">
-            <h3>Machine {props.num}</h3>
+            <h3>IOT Device {props.num}</h3>
             <h5>MAC Address: {props.creds.macAddress}</h5>
             <h5>IPV4: {props.creds.ipv4}</h5>
             <h5>Message Length: {props.creds.message_length}</h5>

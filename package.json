@@ -10,6 +10,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
+    "canvasjs": "^1.8.3",
     "devextreme": "20.1.7",
     "devextreme-react": "20.1.7",
     "node-sass": "^4.14.1",
@@ -21,7 +22,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-transition-group": "^4.4.1",
-    "react-with-addons": "0.0.1"
+    "react-with-addons": "0.0.1",
+    "typescript": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

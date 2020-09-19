@@ -59,7 +59,7 @@ const AddGroup = props => {
                 <span>
                 <h1 className="title">Add a Group</h1>
                 <button onClick={() => {setVisible(!visible);
-                setTimeout(function(){ window.scrollBy(0, 600) }, 250);
+                setTimeout(function(){ window.scrollBy(0, 700) }, 250);
                 }}>{!visible ? <FontAwesomeIcon icon={faPlusCircle} /> : null}</button>
                 </span>
             </div>
@@ -93,7 +93,7 @@ const AddGroup = props => {
                         </Col>
                     </Form.Row>
                     <Form.Group className="grid">
-                        <Form.Label><h4>Select Machines to Display</h4></Form.Label>
+                        <Form.Label><h4>Select IOT Devices to Display</h4></Form.Label>
                         <div>
                             <DataGrid
                             dataSource={sales}
